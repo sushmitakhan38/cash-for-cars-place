@@ -14,13 +14,13 @@ body{
 nav{
     
     background-color: bisque;
-    height: 80px;
+    height: 60px;
     width: 100%;
 }
 
 label.logo{
     color: palevioletred;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
@@ -34,7 +34,7 @@ label.logo{
 nav ul{
    float: right;
     margin-right: 20px;
-    
+    margin-top: 25px;
     
 }
 nav ul li {
@@ -64,8 +64,31 @@ section{
    background-image: url("image/pic01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-   height: calc(100vh-80px);
+   height: calc(100vh - 80px);
     
   
+    
+}
+.button{
+    
+    position: absolute;
+    top:60%;
+    left:65%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.btn{
+    
+    border:1px solid #fff;
+    padding:10px 30px;
+    color:#fff;
+    text-decoration: none;
+    transition-duration: 0.6s ease;
+       
+}
+
+.btn:hover{
+    background-color: darkgrey;
     
 }
